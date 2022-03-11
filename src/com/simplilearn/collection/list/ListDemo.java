@@ -14,7 +14,7 @@ public class ListDemo {
 		// List  -> Order collection of data with duplicates elements.
 		// List (interface) ->  imp classes -> ArrayList, LinkedList , Vector , Stack
 		
-		// list deleraction
+		// list decleraction
 		List<String> list1 = new ArrayList<String>(); // backed by dynamic array, not thread safe, read operations
 		List<String> list2 = new LinkedList<String>(); //backed by doubly linkedlist ,not thread safe, -> insert, delete,replace
 		List<String> list3 = new Vector<String>();  // thread safe collection
